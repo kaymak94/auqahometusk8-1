@@ -20,15 +20,15 @@ public class DataHelper {
     }
 
     public static AuthInfo getAuthInfoFirstUser() {
-        return new AuthInfo("vanya", "qwerty123");
+        return new AuthInfo("vasya", "qwerty123");
     }
 
     public static AuthInfo getAuthInfoSecondUser() {
-        return new AuthInfo("sasha", "123qwerty");
+        return new AuthInfo("petya", "123qwerty");
     }
 
     public static AuthInfo getAuthInfoWrongPassword() {
-        return new AuthInfo("sasha", "321123");
+        return new AuthInfo("petya", "321123");
     }
 
     public static AuthInfo getAuthInfoWrongLogin() {

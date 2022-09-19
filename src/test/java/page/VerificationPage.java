@@ -26,8 +26,4 @@ public class VerificationPage {
         notification.shouldHave(Condition.text("Ошибка! Неверно указан код! Попробуйте ещё раз.")).shouldBe(Condition.visible);
     }
 
-    public void getBlockedVerificationNotification() {
-        notification.shouldBe(Condition.visible);
-    }
-
 }

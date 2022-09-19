@@ -78,7 +78,7 @@ class LoginTest {
         login();
         loginPage.validLogin(authInfo);
         verificationPage.validVerify(DataHelper.getWrongCode());
-        verificationPage.getBlockedVerificationNotification();
+        verificationPage.getVerificationNotification();
     }
 
 }
